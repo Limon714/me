@@ -19,3 +19,24 @@
     background-size: cover;
     background-position: center;
 }
+@media (max-width:500px) {
+    .s1{
+        background-size: 27rem;
+        background-repeat: no-repeat;
+        overflow: hidden;
+}
+    .s2{
+        background-size: 29rem;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .s3{
+        background-size: 26rem;
+        background-repeat: no-repeat;
+    }
+    .s4{
+        background-size: 22.5rem;
+        background-repeat: no-repeat;
+
+    }
+}
