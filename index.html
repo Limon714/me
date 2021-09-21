@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.css" integrity="sha512-4a9xqRQljrVP7yCYWA01pU8xfEBMgXXu71MII2v2Ljbzyez1gEqO1ZNhTv6/QluJcgLqyA1QxkxmCv3PFLBfPg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="fullpage">
+    <div class="section s1">
+    </div>
+    <div class="section s2">
+    </div>
+    <div class="section s3">
+    </div>
+    <div class="section s4">
+    </div>
+
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js" integrity="sha512-+m1+m9XBnZXowk9jSNIlZYgtOPTIu6aUHha/4/3dk84PQcpWgrNd4/zKmOYno0BQK9nuJ6WgYBnuPqCrmvMNtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    new fullpage('#fullpage', {
+        autoscrolling:true,
+        navigation:true,
+        anchors:['section1', 'section2', 'section3', 'section4'],
+        navigationTooltips:['HOME', 'ABOUT ME', 'SERVICE','CONTACT'],
+        showActiveTooltip:true,
+        paddingTop: '3rem',
+        paddingBottom: '3rem',
+        responsive: 0,
+    })
+</script>
+</body>
+</html>
